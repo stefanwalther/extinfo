@@ -1,0 +1,43 @@
+{
+  "name": "extinfo",
+  "description": "Small library to fetch meta data from Qlik Sense extensions.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/stefanwalther/extinfo",
+  "author": {
+    "name": "Stefan Walther",
+    "url": "http://qliksite.io"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stefanwalther/extinfo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stefanwalther/extinfo/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/stefanwalther/extinfo/blob/master/LICENSE"
+  },
+  "files": [
+    "index.js"
+  ],
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "dependencies": {
+    "extend-shallow": "^1.1.2",
+    "glob": "^5.0.0",
+    "q": "^1.2.0",
+    "recursive-readdir": "^1.2.1"
+  },
+  "devDependencies": {
+    "chai": "^2.1.1",
+    "mocha": "*",
+    "should": "*"
+  },
+  "keywords": []
+}

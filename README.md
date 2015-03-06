@@ -1,8 +1,8 @@
-> Nothing to read, yet
+> Nothing to show, yet
 
 ## Author
 
-** Stefan Walther**
+**Stefan Walther**
 
 * [qliksite.io](http://qliksite.io)
 * [twitter/waltherstefan](http://twitter.com/waltherstefan)

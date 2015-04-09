@@ -30,7 +30,7 @@ describe( 'extinfo', function () {
 
 	it( 'should return exinfo properly (by dir)', function ( done ) {
 
-		extInfo.fromFolder( path.join( __dirname, './fixtures/basic/' ) )
+		extInfo.fromDir( path.join( __dirname, './fixtures/basic/' ) )
 			.then( function ( data ) {
 				data.should.not.be.empty;
 				assert( typeof(data) === 'object' );

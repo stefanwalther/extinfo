@@ -40,5 +40,8 @@
     "QlikSense",
     "qliksense-extension",
     "extension"
+  ],
+  "files": [
+    "index.js"
   ]
 }

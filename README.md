@@ -34,8 +34,6 @@ npm i -d && npm test
 Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/stefanwalther/extinfo/issues)
 
 
-## Change Log
-
 ## Author
 **Stefan Walther**
 

@@ -8,14 +8,14 @@
     "url": "http://qliksite.io"
   },
   "repository": {
-    "type": "git",
+    "sourceType": "git",
     "url": "git://github.com/stefanwalther/extinfo.git"
   },
   "bugs": {
     "url": "https://github.com/stefanwalther/extinfo/issues"
   },
   "license": {
-    "type": "MIT",
+    "sourceType": "MIT",
     "url": "https://github.com/stefanwalther/extinfo/blob/master/LICENSE"
   },
   "main": "index.js",
@@ -28,12 +28,14 @@
   "dependencies": {
     "extend-shallow": "^1.1.2",
     "glob": "^5.0.0",
-    "q": "^1.2.0"
+    "q": "^1.2.0",
+    "string": "^3.1.1"
   },
   "devDependencies": {
     "chai": "^2.1.1",
     "mocha": "*",
-    "should": "*"
+    "should": "*",
+    "verb-cli": "^0.6.2"
   },
   "keywords": [
     "Qlik Sense",

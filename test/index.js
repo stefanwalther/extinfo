@@ -64,4 +64,19 @@ describe( 'extinfo', function () {
             } );
     } );
 
+    it( 'should also work for an empty .qext file', function ( done ) {
+        extInfo.fromDir( path.join( __dirname, './fixtures/empty/' ) )
+            .then( function ( data ) {
+                data.should.not.be.empty;
+                assert( typeof(data) === 'object' );
+                done();
+
+            } )
+            .catch( function ( data ) {
+                console.error( 'Error: ', data );
+                assert( false );
+                done();
+            } );
+    } );
+
 } );

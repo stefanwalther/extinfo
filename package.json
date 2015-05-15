@@ -1,7 +1,7 @@
 {
   "name": "extinfo",
   "description": "Small library to fetch meta data from Qlik Sense extensions.",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "homepage": "https://github.com/stefanwalther/extinfo",
   "author": {
     "name": "Stefan Walther",
@@ -44,7 +44,5 @@
     "qliksense-extension",
     "extension"
   ],
-  "files": [
-    "index.js"
-  ]
+  "files": "index.js"
 }

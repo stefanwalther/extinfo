@@ -26,17 +26,17 @@
     "test": "mocha --timeout 3000"
   },
   "dependencies": {
-    "extend-shallow": "^1.1.2",
-    "glob": "^5.0.0",
+    "extend-shallow": "^2.0.1",
+    "glob": "^7.1.1",
     "q": "^1.2.0",
     "string": "^3.1.1",
-    "winston": "^1.0.0"
+    "winston": "^2.3.1"
   },
   "devDependencies": {
-    "chai": "^2.1.1",
+    "chai": "^3.5.0",
     "mocha": "*",
     "should": "*",
-    "verb-cli": "^0.6.2"
+    "verb-cli": "^0.7.4"
   },
   "keywords": [
     "Qlik Sense",

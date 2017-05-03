@@ -1,5 +1,7 @@
 # extinfo [![NPM version](https://badge.fury.io/js/extinfo.svg)](http://badge.fury.io/js/extinfo)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/stefanwalther/extinfo.svg)](https://greenkeeper.io/)
+
 > Small library to fetch meta data from Qlik Sense extensions.
 
 ## Install with [npm](npmjs.org)
